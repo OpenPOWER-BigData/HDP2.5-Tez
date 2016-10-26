@@ -152,7 +152,7 @@
               <workingDirectory>${webappDir}</workingDirectory>
               <executable>${node.executable}</executable>
               <arguments>
-                <argument>node/npm/bin/npm-cli</argument>
+                <argument>node/node_modules/npm/bin/npm-cli</argument>
                 <argument>run</argument>
                 <argument>build:mvn</argument>
               </arguments>
@@ -169,7 +169,7 @@
               <workingDirectory>${webappDir}</workingDirectory>
               <executable>${node.executable}</executable>
               <arguments>
-                <argument>node/npm/bin/npm-cli</argument>
+                <argument>node/node_modules/npm/bin/npm-cli</argument>
                 <argument>run</argument>
                 <argument>test:mvn</argument>
               </arguments>
